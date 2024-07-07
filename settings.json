@@ -7,6 +7,7 @@
 	"editor.smoothScrolling": true,
 	"editor.minimap.enabled": false,
 	"editor.detectIndentation": true,
+	"editor.stickyScroll.enabled": false,
 	"editor.suggestSelection": "first",
 	"editor.multiCursorModifier": "ctrlCmd",
 	"window.zoomLevel": 1,
@@ -58,7 +59,7 @@
 	"editor.fontSize": 12,
 	"editor.lineHeight": 22,
 	"editor.fontLigatures": true,
-	"editor.fontFamily": "Operator mono lig, Iosevka NFM, JetBrains Mono, Monaspace Neon, Maple Mono, MonoLisa, Ubuntu Mono, DejaVu Sans Mono, Fira Code, monoki, Hasklig, PragmataPro, IBM Plex Mono, Victor Mono, Roboto Mono, monospace",
+	"editor.fontFamily": "FiraCode Nerd Font, Iosevka NFM, JetBrains Mono, Monaspace Neon, Maple Mono, MonoLisa, Ubuntu Mono, DejaVu Sans Mono, Fira Code, monoki, Hasklig, PragmataPro, IBM Plex Mono, Victor Mono, Roboto Mono, monospace",
 	"editor.inlayHints.fontFamily": "PragmataPro",
 
 	"editor.tokenColorCustomizations": {
@@ -95,9 +96,10 @@
 	},
 
 	//Terminal
-	"terminal.integrated.fontFamily": "Iosevka NFM",
+	"terminal.integrated.fontFamily": "FiraCode Nerd Font, Iosevka NFM",
 	"terminal.integrated.fontSize": 12,
 	"terminal.integrated.tabs.enabled": false,
+	"terminal.integrated.defaultProfile.windows": "PowerShell",
 
 	//Explorer
 	"explorer.confirmDelete": false,
@@ -137,14 +139,6 @@
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	// "files.associations": { "*.scss": "postcss", "*.module.scss": "postcss" },
 	"editor.inlineSuggest.enabled": true,
-
-	//Laravel
-	"[blade]": {
-		"editor.defaultFormatter": "onecentlin.laravel-blade"
-	},
-	"[php]": {
-		"editor.defaultFormatter": "DEVSENSE.phptools-vscode"
-	},
 
 	//Breadcrumbs
 	"breadcrumbs.icons": false,
@@ -223,6 +217,5 @@
 	// Поведение при обнаружении нескольких определений
 	"editor.gotoLocation.multipleDefinitions": "goto",
 	// Скрыть подсказку в пустом редакторе
-	"workbench.editor.empty.hint": "hidden",
-	"editor.stickyScroll.enabled": false
+	"workbench.editor.empty.hint": "hidden"
 }
